@@ -12,15 +12,6 @@ window.addEventListener("DOMContentLoaded", function () {
    });
 });
 
-/*function showAnonymousQuotes(count) {
-   let html = "<ol>";
-   for (let c = 1; c <= count; c++) {
-      html += `<li>Quote ${c} - Anonymous</li>`;
-   }
-   html += "</ol>";
-
-   document.querySelector("#quotes").innerHTML = html
-}*/
 
 function fetchQuotes(topic, count) {   
    // TODO: Modify to use Fetch API
